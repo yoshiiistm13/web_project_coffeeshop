@@ -1,5 +1,5 @@
 .page {
-  margin: 0;
+  margin: 0 auto;
   min-width: 1100px;
   max-width: 1600px;
   font-family: "Inter", Arial, sans-serif;
@@ -32,7 +32,7 @@ header {
   width: 105px;
 }
 
-.nav__link {
+.nav {
   display: flex;
   gap: 20px;
   font-family: "Inter";
@@ -65,13 +65,13 @@ h1 {
   display: flex;
 }
 
-.hero__image {
+.header__image {
   width: 646px;
   height: 568px;
   padding-right: 5px;
 }
 
-.title {
+.header__title {
   max-width: 709px;
   padding-top: 183px;
   margin: 0;
@@ -82,7 +82,7 @@ h1 {
   line-height: 28px;
 }
 
-.foot {
+.header__footer {
   display: flex;
   justify-content: space-between;
   padding-top: 40px;
@@ -90,7 +90,7 @@ h1 {
   padding-left: 80px;
 }
 
-.resume {
+.header__description {
   max-width: 683px;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
@@ -145,6 +145,7 @@ h1 {
 .recipes__iframe {
   width: 480px;
   height: 273px;
+  border: none;
 }
 
 .recipes__videos {
