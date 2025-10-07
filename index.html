@@ -26,16 +26,16 @@
     <div class="page">
       <div class="pages"></div>
       <header class="header">
-        <div class="nav-list">
+        <div class="nav__list">
           <img src="./images/logo_coffeeshop_dark.svg" alt="" class="logo" />
-          <nav class="nav-link">
-            <div class="nav-links">Recetas</div>
-            <div class="nav-links">Reservar una mesa</div>
-            <div class="nav-links">Contactos</div>
+          <nav class="nav__link">
+            <div class="nav__links">Recetas</div>
+            <div class="nav__links">Reservar una mesa</div>
+            <div class="nav__links">Contactos</div>
           </nav>
         </div>
 
-        <div class="header-content">
+        <div class="header__content">
           <div class="text">
             <h1 class="title">
               <span>Café de especialidad</span><br />
@@ -49,7 +49,7 @@
           <img
             src="./images/inside_coffee_shop.png"
             alt=""
-            class="hero-image"
+            class="hero__image"
           />
         </div>
 
@@ -67,35 +67,45 @@
       <main class="content">
         <section class="recipes">
           <div class="section-recipes">
-            <h2 class="title-recipes">Recetas</h2>
-            <p class="subtitle-recipes">
+            <h2 class="recipes__title">Recetas</h2>
+            <p class="recipes__subtitle">
               Echa un vistazo a las recetas que hemos reunido para que elabores
               tus propios snacks.
             </p>
-            <div class="recipes-videos">
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/j6VlT_jUVPc?si=NZtAvfVeXxjvEeA1"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen
-              ></iframe>
-              <div class="video-caption"><p>Receta en Aeropress ~5 min</p></div>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/st571DYYTR8?si=j259Bhj0sS9AYw88"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen
-              ></iframe>
-              <div class="video-caption">
-                <p>Receta en cafetera francesa ~15 min</p>
+            <div class="recipes__videos">
+              <div class="recipes__video-item">
+                <iframe
+                  class="recipes__iframe"
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/j6VlT_jUVPc?si=NZtAvfVeXxjvEeA1"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+                <div class="recipes__video-caption">
+                  <p>Receta en Aeropress</p>
+                  <p>~5 min</p>
+                </div>
+              </div>
+              <div class="recipes__video-item">
+                <iframe
+                  class="recipes__iframe"
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/st571DYYTR8?si=j259Bhj0sS9AYw88"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+                <div class="recipes__video-caption">
+                  <p>Receta en cafetera francesa</p>
+                  <p>~15 min</p>
+                </div>
               </div>
             </div>
           </div>
