@@ -61,20 +61,19 @@ h1 {
   letter-spacing: 1px;
 }
 
-.header__content {
-  display: flex;
-}
-
 .header__image {
+  position: absolute;
+  right: 50px;
+  bottom: 20px;
   width: 646px;
   height: 568px;
-  padding-right: 5px;
 }
 
 .header__title {
   max-width: 709px;
   padding-top: 183px;
   margin: 0;
+  padding-left: 80px;
 }
 
 .text {
@@ -83,11 +82,19 @@ h1 {
 }
 
 .header__footer {
+  position: relative;
+  margin-top: auto;
   display: flex;
   justify-content: space-between;
   padding-top: 40px;
   padding-right: 80px;
   padding-left: 80px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
 }
 
 .header__description {
@@ -97,6 +104,7 @@ h1 {
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  padding-left: 80px;
 }
 
 .section-recipes {
@@ -132,20 +140,15 @@ h1 {
   padding-top: 24px;
   max-width: 438px;
   font-family: "Noto Serif";
-
   font-style: normal;
-
   font-weight: normal;
-
   font-size: 20px;
-
   line-height: 30px;
 }
 
 .recipes__iframe {
   width: 480px;
   height: 273px;
-  border: none;
 }
 
 .recipes__videos {
@@ -176,4 +179,21 @@ h1 {
 .recipes__video-item {
   justify-content: center;
   text-align: center;
+}
+
+.header__paragraphs {
+  font-family: "Inter";
+
+  font-style: normal;
+
+  font-weight: 500;
+
+  font-size: 16px;
+
+  line-height: 20px;
+
+  color: #838383;
+  padding-bottom: 40px;
+
+  line-height: 0;
 }
