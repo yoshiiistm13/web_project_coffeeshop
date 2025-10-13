@@ -235,3 +235,29 @@ h1 {
   height: 200px;
   border: 0;
 }
+
+.reservations {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/background_reservation.svg);
+  background-color: #d9e7ff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.reservation__title {
+  margin: 0px auto 80px;
+  padding-top: 100px;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.form__fieldset {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 385px;
+}
