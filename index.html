@@ -6,7 +6,7 @@
     <meta name="description" content="La cafeteria de @YoshiiiStm" />
     <meta name="author" content="@YoshiiiStm" />
     <meta name="keywords" content="palabra1, palabra2, palabra3" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
+
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -119,31 +119,98 @@
             </div>
           </div>
         </section>
-        <section id="#" class="reservations">
+        <section id="reservation" class="reservation">
           <h2 class="reservation__title">Reservar una mesa</h2>
           <form class="form reservation__form">
-            
-              <fieldset class="form__fieldset">
-              <label class="form__label">Nombre *</label>
-              <input class ="form__input" type="text" placeholder="Nombre" required></input>
-              <label class="form__label">Número de comensales *</label>
-              <input class ="form__input" type="number" min="1" max="8" placeholder="1-8" required></input>
-              <label class="form__label">Fecha y Hora *</label>
-              <input class ="form__input" type="date" placeholder="dd/mm/aaaa" required></input>
-              <label class="form__label">Tu correo electrónico *</label>
-              <input class ="form__input" type="email" placeholder="email@email-com" required></input>
-              </fieldset>
-              <fieldset class="form__fieldset">
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="name">Nombre *</label>
+              <input
+                class="form__input"
+                type="text"
+                placeholder="Nombre"
+                required
+                id="name"
+              />
+              <label class="form__label" for="dinners-numbers"
+                >Número de comensales *</label
+              >
+              <input
+                class="form__input"
+                type="number"
+                min="1"
+                max="8"
+                placeholder="1-8"
+                required
+                id="dinners-numbers"
+              />
+              <label class="form__label" for="feche-y-hora"
+                >Fecha y Hora *</label
+              >
+              <input
+                class="form__input"
+                type="date"
+                placeholder="dd/mm/aaaa"
+                required
+                id="feche-y-hora"
+              />
+              <label class="form__label" for="email"
+                >Tu correo electrónico *</label
+              >
+              <input
+                class="form__input"
+                type="email"
+                placeholder="email@email-com"
+                required
+                id="email"
+              />
+            </fieldset>
+            <fieldset class="form__fieldset">
               <button class="form__buttom">Reservar una mesa</button>
-              </fieldset> 
-              <fieldset class="form__fieldset__checkbox">
-                <input class="form__checkbox" type="checkbox" required>
-                <label class="form__label__checkbox">Acepto los términos de uso *</label>
-              </fieldset>
+            </fieldset>
+            <fieldset class="form__fieldset form__fieldset_el_center">
+              <input class="form__checkbox" type="checkbox" required />
+              <label class="form__label form__label_checkbox"
+                >Acepto los términos de uso *</label
+              >
+            </fieldset>
           </form>
         </section>
       </main>
-      <footer class="footer"></footer>
+      <footer id="footer" class="footer">
+        <div class="footer__circle">
+          <img src="/images/favicon_circles.ico" alt="favicon_circles" />
+        </div>
+        <div class="footer__content">
+          <img
+            class="footer__logo"
+            src="/images/logo_coffeeshop_light.svg"
+            alt="logo_coffeeshop_light"
+          />
+
+          <div class="footer__social">
+            <h3 class="footer__social-heading">Redes Sociales</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <img
+                  class="footer__social-icon"
+                  src="/images/facebook_white.svg"
+                  alt=""
+                />
+                <a class="footer__social-link" href="#">Facebook</a>
+              </li>
+              <li class="footer__list-item">
+                <img
+                  class="footer__social-icon"
+                  src="/images/instagram_white.svg"
+                  alt=""
+                />
+                <a class="footer__social-link" href="#">Instagram</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">2025 @YoshiiiStm</p>
+      </footer>
     </div>
   </body>
 </html>

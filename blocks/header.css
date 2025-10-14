@@ -1,0 +1,123 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  background-image: url(../images/background_header.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+span {
+  color: #2f80ed;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 72px;
+}
+
+h1 {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: 1px;
+}
+
+.header__image {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 646px;
+  height: 568px;
+  top: 124px;
+  right: 5px;
+}
+
+.header__title {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  font-family: "Inter", Arial, Sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: -1px;
+  max-width: 709px;
+  left: 80px;
+}
+
+.header__footer {
+  position: relative;
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+  padding-right: 80px;
+  padding-left: 80px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+}
+
+.header__description {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  font-family: "Noto serif", Times, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 683px;
+  margin-top: 28px;
+  left: 80px;
+}
+
+.header__paragraph {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+  margin: 0;
+}
+
+.header__span-accent {
+  display: flex;
+  font-family: "Noto Serif", Times, sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 72px;
+  color: #2f80ed;
+  left: 80px;
+}
+
+.header__timetable {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 80px;
+  bottom: 40px;
+}
+
+.header__address {
+  display: flex;
+  margin-top: auto;
+  position: absolute;
+  right: 80px;
+  bottom: 20px;
+}
